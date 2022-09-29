@@ -1,0 +1,9 @@
+@media(max-width:650px){
+    .container{
+        width: 350px;
+        height: 300px;
+    }
+    .descricao{
+        font-size: 21px;
+    }
+}

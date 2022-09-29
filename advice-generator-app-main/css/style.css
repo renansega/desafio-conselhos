@@ -1,0 +1,44 @@
+body{
+    background-color: hsl(218, 23%, 16%);
+    font-family: 'Manrope', sans-serif;
+}
+
+.flex{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 520px;
+    
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.descricao{
+    margin-left: 35px;
+    margin-right: 35px;
+    color: hsl(193, 38%, 86%);
+    font-size: 1.6em;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.advice{
+    color: hsl(150, 100%, 66%);
+    font-size: .8em;
+    margin-top: 20px;
+}
+.dado{
+    
+   background-color: hsl(150, 100%, 66%);
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    border: none;
+    transform: translateY(50%);
+}
